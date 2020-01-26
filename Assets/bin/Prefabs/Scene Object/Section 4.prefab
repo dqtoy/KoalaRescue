@@ -411,6 +411,7 @@ TilemapRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -445,6 +446,8 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &5999919313756289984
 GameObject:
   m_ObjectHideFlags: 0
@@ -493,7 +496,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ChanceOfSpawn: 0.6
   SpawObject:
-  - {fileID: 2144902042400900832, guid: 3d6e01ba03f42734bb1c6b42e09be81c, type: 3}
+  - {fileID: 2231224777169674325, guid: bf0d6b6c94d7c55419d85e7c06c3a364, type: 3}
 --- !u!1 &6675898994443029211
 GameObject:
   m_ObjectHideFlags: 0
@@ -704,6 +707,7 @@ TilemapRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -738,6 +742,8 @@ TilemapCollider2D:
   m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!251 &553294707119361627
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -852,6 +858,7 @@ TilemapRenderer:
   m_ProbeAnchor: {fileID: 0}
   m_LightProbeVolumeOverride: {fileID: 0}
   m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
   m_PreserveUVs: 0
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
@@ -886,6 +893,8 @@ TilemapCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  m_MaximumTileChangeCount: 1000
+  m_ExtrusionFactor: 0.00001
 --- !u!1 &8905345145730773284
 GameObject:
   m_ObjectHideFlags: 0
@@ -939,11 +948,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4217806585987517299}
     m_Modifications:
-    - target: {fileID: 7636619037455876581, guid: b30651d213723b846b7621cf2a9d53f7,
-        type: 3}
-      propertyPath: m_Name
-      value: CoinSpawner (2)
-      objectReference: {fileID: 0}
     - target: {fileID: 6022011416336574814, guid: b30651d213723b846b7621cf2a9d53f7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -999,6 +1003,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7636619037455876581, guid: b30651d213723b846b7621cf2a9d53f7,
+        type: 3}
+      propertyPath: m_Name
+      value: CoinSpawner (2)
+      objectReference: {fileID: 0}
     - target: {fileID: 8079010830504867224, guid: b30651d213723b846b7621cf2a9d53f7,
         type: 3}
       propertyPath: boxSize.m_Center.x
@@ -1029,11 +1038,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4217806585987517299}
     m_Modifications:
-    - target: {fileID: 7636619037455876581, guid: b30651d213723b846b7621cf2a9d53f7,
-        type: 3}
-      propertyPath: m_Name
-      value: CoinSpawner (1)
-      objectReference: {fileID: 0}
     - target: {fileID: 6022011416336574814, guid: b30651d213723b846b7621cf2a9d53f7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1089,6 +1093,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7636619037455876581, guid: b30651d213723b846b7621cf2a9d53f7,
+        type: 3}
+      propertyPath: m_Name
+      value: CoinSpawner (1)
+      objectReference: {fileID: 0}
     - target: {fileID: 8079010830504867224, guid: b30651d213723b846b7621cf2a9d53f7,
         type: 3}
       propertyPath: boxSize.m_Center.x
@@ -1119,11 +1128,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4217806585987517299}
     m_Modifications:
-    - target: {fileID: 7636619037455876581, guid: b30651d213723b846b7621cf2a9d53f7,
-        type: 3}
-      propertyPath: m_Name
-      value: CoinSpawner (3)
-      objectReference: {fileID: 0}
     - target: {fileID: 6022011416336574814, guid: b30651d213723b846b7621cf2a9d53f7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1178,6 +1182,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7636619037455876581, guid: b30651d213723b846b7621cf2a9d53f7,
+        type: 3}
+      propertyPath: m_Name
+      value: CoinSpawner (3)
       objectReference: {fileID: 0}
     - target: {fileID: 8079010830504867224, guid: b30651d213723b846b7621cf2a9d53f7,
         type: 3}
