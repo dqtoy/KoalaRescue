@@ -1317,7 +1317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11402082, guid: b1537507c557d46d3a4963042faeaafe, type: 3}
       propertyPath: TotalLives
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11402082, guid: b1537507c557d46d3a4963042faeaafe, type: 3}
       propertyPath: Continues
@@ -1622,7 +1622,7 @@ MonoBehaviour:
   OutroFadeDuration: 1
   StartCountdown: 3
   StartText: Go!
-  ControlScheme: 0
+  ControlScheme: 2
   LifeLostExplosion: {fileID: 184460, guid: 2bfa6f1578b3ec0408e74b5cbbca104d, type: 3}
   ContinueCost: 20
 --- !u!4 &621938743
@@ -2417,6 +2417,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: StartLocation
       objectReference: {fileID: 0}
+    - target: {fileID: 4604826493824295448, guid: 3091ce71295a56b4981813decc980d43,
+        type: 3}
+      propertyPath: m_Tiles.Array.data[32].second.m_TileSpriteIndex
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604826493824295448, guid: 3091ce71295a56b4981813decc980d43,
+        type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[0].m_RefCount
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604826493824295448, guid: 3091ce71295a56b4981813decc980d43,
+        type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[0].m_Data
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604826493824295448, guid: 3091ce71295a56b4981813decc980d43,
+        type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[6].m_RefCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4604826493824295448, guid: 3091ce71295a56b4981813decc980d43,
+        type: 3}
+      propertyPath: m_TileSpriteArray.Array.data[6].m_Data
+      value: 
+      objectReference: {fileID: 2400133496081167693, guid: 471e6e93d7937d24595e4fc943bbfa8d,
+        type: 3}
     - target: {fileID: 4673043670379121231, guid: 3091ce71295a56b4981813decc980d43,
         type: 3}
       propertyPath: m_LocalPosition.x
